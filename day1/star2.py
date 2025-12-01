@@ -1,9 +1,9 @@
 with open("input.txt") as file:
-    lines = [line.strip() for line in file]
+    rotations = [rotation.strip() for rotation in file]
 
 number = 50
 count = 0
-for r in lines:
+for r in rotations:
     n = int(r[1:])
     if r[0] == "R":
         for _ in range(n):
