@@ -18,8 +18,4 @@ for r in ranges:
                 right = i[mid:]
                 if left == right:
                     invalids += int(i)
-print(invalids)
-
-            
-
-        
+print(invalids)             
