@@ -1,4 +1,4 @@
-with open("input.txt") as file:
+with open("day1/input.txt") as file:
     rotations = [rotation.strip() for rotation in file]
 
 number = 50

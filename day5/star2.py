@@ -9,7 +9,7 @@ for range in ranges:
     start, end = range
     if connected_ranges:
         pop_indices = []
-        for i, exist_range in enumerate(connected_ranges[:]):
+        for i, exist_range in enumerate(connected_ranges):
             exist_start,exist_end = exist_range
             if exist_start <= start <= exist_end or exist_start <= end <= exist_end or (start <= exist_start and end >= exist_end):
                 connected_ranges[i][0] = min(start,exist_start)

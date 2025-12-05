@@ -1,5 +1,5 @@
 ranges = []
-with open("input.txt") as file:
+with open("day2/input.txt") as file:
         ranges = file.readline().split(",")
 
 invalids = 0
