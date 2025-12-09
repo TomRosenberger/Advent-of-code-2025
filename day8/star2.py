@@ -1,5 +1,5 @@
 from math import sqrt
-# distance = wurzel von (x1-x2)²+(y1-y2)²+(z1-z2)²
+
 with open("day8/input.txt") as file:
     lines = [[int(i) for i in line.split(",")] for line in file]
 
